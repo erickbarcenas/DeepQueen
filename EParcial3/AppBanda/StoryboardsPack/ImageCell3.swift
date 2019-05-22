@@ -21,6 +21,7 @@ class ImageCell3: UITableViewCell {
     
     func setImage(image: Image3) {
         imageCell.image = image.image
+        imageCell.roundedImage()
         TitleCell.text = image.title
         DescriptionCell.text = image.subtitle
         añoCell.text = image.año

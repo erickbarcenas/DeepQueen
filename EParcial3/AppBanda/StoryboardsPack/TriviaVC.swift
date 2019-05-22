@@ -82,15 +82,21 @@ class TriviaVC: UIViewController {
         //question 1
         if switchTrivia.isOn == true {
             labelTriviaAnswer.text = "Verdadero"
+            labelTriviaAnswer.textColor = UIColor(red: 26, green: 161, blue: 247, alpha: 1)
             question_1 = true
         }
         if switchTrivia.isOn != true {
             labelTriviaAnswer.text = "Falso"
+            
             question_1 = false
         }
         //question 2
         if switchTrivia2.isOn == true {
             labelTriviaAnswer2.text = "Verdadero"
+            
+            labelTriviaAnswer.textColor = UIColor(red: 26, green: 161, blue: 247, alpha: 1)
+            
+            
             question_2 = true
         }
         if switchTrivia2.isOn != true {

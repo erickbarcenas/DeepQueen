@@ -34,7 +34,7 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="AionSynap_foto" image="AionSynap_foto" translatesAutoresizingMaskIntoConstraints="NO" id="Tqy-jM-kjh">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="AionSynap_foto" image="aion" translatesAutoresizingMaskIntoConstraints="NO" id="Tqy-jM-kjh">
                                                 <rect key="frame" x="77.5" y="50" width="140" height="100"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="AionSynap_foto"/>
                                                 <constraints>
@@ -70,7 +70,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="N9c-tA-iLp">
                                                 <rect key="frame" x="0.0" y="0.0" width="168" height="193"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="erick" image="EIBM_foto" translatesAutoresizingMaskIntoConstraints="NO" id="uJr-MW-KSG">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="erick" image="erick" translatesAutoresizingMaskIntoConstraints="NO" id="uJr-MW-KSG">
                                                         <rect key="frame" x="34" y="0.0" width="100" height="90"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="90" id="iof-cg-QwO"/>
@@ -103,7 +103,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="nsI-An-qXH">
                                                 <rect key="frame" x="168" y="0.0" width="174" height="193"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LJGE_foto" translatesAutoresizingMaskIntoConstraints="NO" id="0oO-PN-wZd">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jared" translatesAutoresizingMaskIntoConstraints="NO" id="0oO-PN-wZd">
                                                         <rect key="frame" x="37" y="0.0" width="100" height="90"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="0oO-PN-wZd" secondAttribute="height" multiplier="10:9" id="MYb-T5-A1o"/>
@@ -196,9 +196,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AionSynap_foto" width="103" height="74"/>
-        <image name="EIBM_foto" width="854" height="977"/>
-        <image name="LJGE_foto" width="982" height="1280"/>
-        <image name="cerrar" width="25" height="25"/>
+        <image name="aion" width="427.76470947265625" height="309.17648315429688"/>
+        <image name="cerrar" width="18.75" height="18.75"/>
+        <image name="erick" width="472.43075561523438" height="540"/>
+        <image name="jared" width="414.72000122070312" height="540"/>
     </resources>
 </document>

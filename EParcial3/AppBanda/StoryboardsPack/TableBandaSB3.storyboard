@@ -39,15 +39,15 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="109.66666666666667"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mec-uv-znE">
-                                                    <rect key="frame" x="12" y="26.666666666666668" width="100" height="56.333333333333329"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mec-uv-znE">
+                                                    <rect key="frame" x="12" y="16.000000000000004" width="100" height="56.333333333333343"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="mec-uv-znE" secondAttribute="height" multiplier="16:9" id="C4x-pS-ezv"/>
                                                         <constraint firstAttribute="width" constant="100" id="UCF-2f-m5P"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Plj-pC-zA8">
-                                                    <rect key="frame" x="124" y="34" width="239" height="25"/>
+                                                    <rect key="frame" x="124" y="23.333333333333336" width="239" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="fAn-bw-Vfb"/>
                                                     </constraints>
@@ -56,7 +56,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="BWH-Dq-gWN">
-                                                    <rect key="frame" x="124" y="53" width="239" height="25"/>
+                                                    <rect key="frame" x="124" y="42.333333333333336" width="239" height="25.000000000000007"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="yCX-WL-LUF"/>
                                                     </constraints>
@@ -65,7 +65,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Más info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YbS-2K-Zcw">
-                                                    <rect key="frame" x="305" y="74" width="55" height="25"/>
+                                                    <rect key="frame" x="305" y="52.666666666666671" width="55" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="DQK-HT-ldq"/>
                                                     </constraints>
@@ -74,7 +74,7 @@
                                                     <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </label>
                                                 <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZC-1x-9QJ">
-                                                    <rect key="frame" x="318" y="11" width="42" height="21"/>
+                                                    <rect key="frame" x="318" y="11.000000000000002" width="42" height="0.0"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="42" id="WVb-DS-de8"/>
                                                     </constraints>
@@ -83,7 +83,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio $" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUe-85-mIL">
-                                                    <rect key="frame" x="284" y="44" width="64" height="21"/>
+                                                    <rect key="frame" x="284" y="23" width="64" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="QIq-1X-Jj9"/>
                                                         <constraint firstAttribute="width" constant="64" id="RsG-tV-LEp"/>
@@ -466,12 +466,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BandaTabBar" width="48" height="48"/>
+        <image name="BandaTabBar" width="72" height="72"/>
         <image name="allBand" width="364" height="257"/>
         <image name="dev-setup" width="960" height="540"/>
-        <image name="info" width="25" height="25"/>
+        <image name="info" width="18.75" height="18.75"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hog-rw-zUh"/>
+        <segue reference="peU-ma-A0P"/>
     </inferredMetricsTieBreakers>
 </document>

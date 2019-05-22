@@ -19,7 +19,6 @@
 		BA56357E229250DF00CBF1F2 /* SongListScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA56357D229250DF00CBF1F2 /* SongListScreenVC.swift */; };
 		BA75C32C2293C9C800FD5ADA /* BandaColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75C32B2293C9C800FD5ADA /* BandaColorVC.swift */; };
 		BA75C32E2293CB7200FD5ADA /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75C32D2293CB7200FD5ADA /* UIViewExtension.swift */; };
-		BAC2C648229583370051F6EA /* RoundImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2C647229583370051F6EA /* RoundImg.swift */; };
 		BAF1AB692293E93F0002C682 /* TriviaWinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF1AB682293E93E0002C682 /* TriviaWinVC.swift */; };
 		FA0DEE97227749F0005AE441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0DEE96227749F0005AE441 /* AppDelegate.swift */; };
 		FA0DEE99227749F0005AE441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0DEE98227749F0005AE441 /* ViewController.swift */; };
@@ -35,6 +34,7 @@
 		FA0DEEBC22775968005AE441 /* TriviaMalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0DEEBB22775968005AE441 /* TriviaMalVC.swift */; };
 		FA12A7322277AF6E0095E4F6 /* SouvenirsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12A7312277AF6E0095E4F6 /* SouvenirsVC.swift */; };
 		FA12A7342277CC790095E4F6 /* DetallesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12A7332277CC790095E4F6 /* DetallesVC.swift */; };
+		FABA61C3229595B900B6DF07 /* RoundedIMG.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA61C2229595B900B6DF07 /* RoundedIMG.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +50,6 @@
 		BA56357D229250DF00CBF1F2 /* SongListScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListScreenVC.swift; sourceTree = "<group>"; };
 		BA75C32B2293C9C800FD5ADA /* BandaColorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandaColorVC.swift; sourceTree = "<group>"; };
 		BA75C32D2293CB7200FD5ADA /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		BAC2C647229583370051F6EA /* RoundImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImg.swift; sourceTree = "<group>"; };
 		BAF1AB682293E93E0002C682 /* TriviaWinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaWinVC.swift; sourceTree = "<group>"; };
 		FA0DEE93227749F0005AE441 /* AppBanda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppBanda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0DEE96227749F0005AE441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		FA0DEEBB22775968005AE441 /* TriviaMalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaMalVC.swift; sourceTree = "<group>"; };
 		FA12A7312277AF6E0095E4F6 /* SouvenirsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouvenirsVC.swift; sourceTree = "<group>"; };
 		FA12A7332277CC790095E4F6 /* DetallesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesVC.swift; sourceTree = "<group>"; };
+		FABA61C2229595B900B6DF07 /* RoundedIMG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedIMG.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +105,11 @@
 				FA0DEE98227749F0005AE441 /* ViewController.swift */,
 				FA0DEE9A227749F0005AE441 /* Main.storyboard */,
 				BA3702F22291D4A1007C528E /* Assets.xcassets */,
-				BAC2C647229583370051F6EA /* RoundImg.swift */,
 				FA0DEE9F227749F1005AE441 /* LaunchScreen.storyboard */,
 				BA75C32B2293C9C800FD5ADA /* BandaColorVC.swift */,
 				BA3011D82294E3C400FC84E2 /* Constants.swift */,
 				BA75C32D2293CB7200FD5ADA /* UIViewExtension.swift */,
+				FABA61C2229595B900B6DF07 /* RoundedIMG.swift */,
 				FA0DEEA2227749F1005AE441 /* Info.plist */,
 			);
 			path = AppBanda;
@@ -216,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAC2C648229583370051F6EA /* RoundImg.swift in Sources */,
+				FABA61C3229595B900B6DF07 /* RoundedIMG.swift in Sources */,
 				FA0DEEB422775041005AE441 /* ClassDiscography.swift in Sources */,
 				FA0DEEB822775200005AE441 /* CreditsVC.swift in Sources */,
 				BA56357A2292183A00CBF1F2 /* SongTVCell.swift in Sources */,
