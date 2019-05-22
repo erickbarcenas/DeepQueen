@@ -10,9 +10,15 @@ import UIKit
 
 class CreditsVC: UIViewController {
 
+    @IBOutlet weak var logoBusi: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 self.navigationController?.navigationItem.largeTitleDisplayMode = .never        // Do any additional setup after loading the view.
+        
+        
+logoBusi.layer.cornerRadius = logoBusi.frame.size.width / 2
+       logoBusi.clipsToBounds = true
+        
                /* view.setCrazyBackground(colorOne: Colors.purple, colorTwo: Colors.purple_2, colorThree: Colors.purple_3, colorFour: Colors.purple_4)*/
         self.TwoColorAnimateBackground()
 

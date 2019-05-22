@@ -66,6 +66,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Deep3" width="100" height="100"/>
+        <image name="Deep3" width="200" height="200"/>
     </resources>
 </document>

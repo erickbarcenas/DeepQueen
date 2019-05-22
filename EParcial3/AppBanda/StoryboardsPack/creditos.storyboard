@@ -34,8 +34,9 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AionSynap_foto" translatesAutoresizingMaskIntoConstraints="NO" id="Tqy-jM-kjh">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="AionSynap_foto" image="AionSynap_foto" translatesAutoresizingMaskIntoConstraints="NO" id="Tqy-jM-kjh">
                                                 <rect key="frame" x="77.5" y="50" width="140" height="100"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="AionSynap_foto"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="140" id="Bex-sQ-AgM"/>
                                                     <constraint firstAttribute="height" constant="100" id="JbF-5M-dTV"/>
@@ -69,7 +70,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="N9c-tA-iLp">
                                                 <rect key="frame" x="0.0" y="0.0" width="168" height="193"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EIBM_foto" translatesAutoresizingMaskIntoConstraints="NO" id="uJr-MW-KSG">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="erick" image="EIBM_foto" translatesAutoresizingMaskIntoConstraints="NO" id="uJr-MW-KSG">
                                                         <rect key="frame" x="34" y="0.0" width="100" height="90"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="90" id="iof-cg-QwO"/>
@@ -165,6 +166,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="logoBusi" destination="Tqy-jM-kjh" id="fYV-Po-Qe3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xYu-AS-jsN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
