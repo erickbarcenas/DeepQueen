@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="JNQ-o2-qUe">
+                                <rect key="frame" x="60.000000000000014" y="294.33333333333331" width="254.33333333333337" height="223.33333333333331"/>
+                                <subviews>
+                                    <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Deep3" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TFf-os-5UJ">
+                                        <rect key="frame" x="77.333333333333314" y="0.0" width="100" height="83"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="TFf-os-5UJ" secondAttribute="height" multiplier="100:83" id="FBM-2m-7l5"/>
+                                            <constraint firstAttribute="width" constant="100" id="bKq-yd-6GQ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="DeepQueen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOV-WA-JyU">
+                                        <rect key="frame" x="27.666666666666657" y="115" width="199" height="47"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
+                                        <color key="textColor" red="0.32888436317443848" green="0.72727912664413452" blue="0.81962579488754272" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="FLUYE A TU DESTINO" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1k-Cr-L7M">
+                                        <rect key="frame" x="32.333333333333343" y="194" width="190" height="29.333333333333343"/>
+                                        <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="10"/>
+                                        <color key="textColor" red="0.32888436317443848" green="0.72727912664413452" blue="0.81962579488754272" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="TFf-os-5UJ" firstAttribute="centerY" secondItem="JNQ-o2-qUe" secondAttribute="centerY" constant="-70.170000000000002" id="1yU-FV-n5J"/>
+                                    <constraint firstAttribute="height" constant="223.33000000000001" id="G0a-cI-ezE"/>
+                                    <constraint firstAttribute="width" constant="254.33000000000001" id="XV9-Dz-Bln"/>
+                                    <constraint firstItem="TFf-os-5UJ" firstAttribute="centerX" secondItem="JNQ-o2-qUe" secondAttribute="centerX" id="iIt-mZ-r5j"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JNQ-o2-qUe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="52V-by-uUb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JNQ-o2-qUe" secondAttribute="trailing" constant="60" id="PVA-0h-Yqy"/>
+                            <constraint firstItem="JNQ-o2-qUe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="gA9-PA-0ky"/>
+                            <constraint firstItem="JNQ-o2-qUe" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gkF-9a-g6I"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Deep3" width="100" height="100"/>
+    </resources>
+</document>
