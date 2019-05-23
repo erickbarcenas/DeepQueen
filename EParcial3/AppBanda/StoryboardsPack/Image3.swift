@@ -16,8 +16,9 @@ class Image3 {
     var subtitle: String
     var año: String
     var precio: String
-    var canciones: [String]
-    init(image: UIImage, title: String, subtitle: String, año: String, precio: String,canciones:[String]){
+    var canciones: [SongAlbum]
+    
+    init(image: UIImage, title: String, subtitle: String, año: String, precio: String, canciones: [SongAlbum]){
         self.image = image
         self.title = title
         self.subtitle = subtitle
@@ -25,7 +26,6 @@ class Image3 {
         self.precio = precio
         self.canciones = canciones
     }
-  
 }
 
 
