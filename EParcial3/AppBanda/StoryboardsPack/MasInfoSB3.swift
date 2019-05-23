@@ -22,6 +22,9 @@ class MasInfoSB3: UIViewController {
     var getPrecio = String()
     var getID = Int()
     
+    //DESCOMENTAR LINEA PARA PROBAR QUE RECIBA ARREGLO DE CANCIONES
+    //var getCanciones = [SongAlbum]()
+    
     //another form
     
     //var myImage = " "
@@ -35,7 +38,10 @@ class MasInfoSB3: UIViewController {
         moreInfoList.text! = getTitle
         añoCellm.text! = getAño
         PrecioDisco.text! = getPrecio
-        //id = getID
+        
+        //DESCOMENTAR PARA PROBAR QUE LAS CANCIONES SE PASEN
+        //getCanciones.self = getCanciones
+        
         
         //Another
        // self.imageCellList.image = UIImage(named: myImage)
