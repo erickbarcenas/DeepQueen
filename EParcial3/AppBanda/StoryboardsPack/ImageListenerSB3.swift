@@ -60,7 +60,8 @@ class ImageListenerSB3: UIViewController {
         songsArray.append(SongAlbum(imageSong:  #imageLiteral(resourceName: "Headlong"), titleSong: "Headlong", timeSong: "11s", precioSong: "Precio: $2"))
         songsArray.append(SongAlbum(imageSong:  #imageLiteral(resourceName: "I Can't Live With You"), titleSong: "I Can't Live With You", timeSong: "11s", precioSong: "Precio: $2"))
         songsArray.append(SongAlbum(imageSong:  #imageLiteral(resourceName: "I'm Going Slightly Mad"), titleSong: "I'm Going Slightly Mad", timeSong: "11s", precioSong: "Precio: $2"))
-        songsArray.append(SongAlbum(imageSong:  #imageLiteral(resourceName: "Innuendo"), titleSong: "Innuendo", timeSong: "11s", precioSong: "Precio: $2"))
+          songsArray.append(SongAlbum(imageSong:  #imageLiteral(resourceName: "I'm Going Slightly Mad"), titleSong: "Innuendo", timeSong: "11s", precioSong: "Precio: $2"))
+       // songsArray.append(SongAlbum(imageSong:  #imageLiteral(resourceName: "Innuendo"), titleSong: "Innuendo", timeSong: "11s", precioSong: "Precio: $2"))
         
         //Canciones de Made in Heaven
         songsArray.append(SongAlbum(imageSong:  #imageLiteral(resourceName: "It's A Beautiful Day"), titleSong: "It's A Beautiful Day", timeSong: "11s", precioSong: "Precio: $2"))
